@@ -41,6 +41,7 @@ namespace p8jkbxjr6kservice
             }
 
             app.UseWebApi(config);
+            ConfigureSwagger(config);
         }
     }
 
